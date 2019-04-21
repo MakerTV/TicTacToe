@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8' lang='pt-br'>
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="_css/style.css">
+    </head>
+    <body>
+        <script src='_js/script.js'></script>
+        <div id='tab'>
+            <table>
+                <form name='form' class='form'>
+                    <tr>
+                        <td><input type='button' value='' id='a1' name="button" class='options' pos='' onclick='insert(id)'></td>
+                        <td><input type='button' value='' id='a2' name="button1" class='options' pos='' onclick='insert(id)'></td>
+                        <td><input type='button' value='' id='a3' name="button2" class='options' pos='' onclick='insert(id)'></td>
+                    </tr>
+                    <tr>
+                        <td><input type='button' value='' id='b1' name="button3" class='options' pos='' onclick='insert(id)'></td>
+                        <td><input type='button' value='' id='b2' name="button4" class='options' pos='' onclick='insert(id)'></td>
+                        <td><input type='button' value='' id='b3' name="button5" class='options' pos='' onclick='insert(id)'></td>
+                    </tr>
+                    <tr>
+                        <td><input type='button' value='' id='c1' name="button6" class='options' pos='' onclick='insert(id)'></td>
+                        <td><input type='button' value='' id='c2' name="button7" class='options' pos='' onclick='insert(id)'></td>
+                        <td><input type='button' value='' id='c3' name="button8" class='options' pos='' onclick='insert(id)'></td>
+                    </tr>
+                </form>
+            </table>
+        </div>
+        <input type='button' id='btn' value='Restart' onclick='restart()' style="float: right; width: 256px; height: 128px; font-size: 72px;">
+    </body>
+</html>
